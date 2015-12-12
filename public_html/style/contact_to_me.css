@@ -1,0 +1,172 @@
+.contactbox {
+
+	width: 650px;
+	height: 840px;
+	background-color: #eff3f7;
+	border-radius: 4px;
+	margin-bottom: 26px;
+	float: right;
+	position: relative;
+}
+
+
+
+
+.contact-header {
+
+	width: 100%;
+	height: 122px;
+	background-color: #48cbe8; 
+	border-bottom: 17px solid #67dffa;
+	border-radius: 4px 4px 0 0;
+	font: 27px 'fira_sansbook';
+	color: #fff;
+	padding: 0;
+	margin-bottom: 46px;
+	text-align: center;
+}
+.boxheader {
+	position: absolute;
+	top: 19px;
+	left: 59px;
+}
+
+.contactbody {
+	width: 402px;
+	margin: 0 auto;
+}
+
+.contactform {
+
+}
+.row1 {
+	float: left;
+	width: 193px;
+}
+.row2 {
+	float: right;
+	width: 193px;
+}
+::-webkit-input-placeholder {
+	font: 13px 'fira_sanslight';
+	color: #48cde8;
+}
+::-moz-placeholder {
+	font: 13px 'fira_sanslight';
+	color: #48cde8;
+}
+:-moz-placeholder {
+	font: 13px 'fira_sanslight';
+	color: #48cde8;
+}
+:-ms-input-placeholder {
+	font: 13px 'fira_sanslight';
+	color: #48cde8;
+}
+:focus::-webkit-input-placeholder {
+	color: transparent
+}
+:focus::-moz-placeholder {
+	color: transparent
+}
+:focus:-moz-placeholder {
+	color: transparent
+}
+:focus:-ms-input-placeholder {
+	color: transparent
+}
+
+.firstbox {
+	margin-bottom: 12px;
+}
+.name-label {
+	font: 19px 'fira_sanslight';
+	color: #959aa8;
+}
+.name-input {
+	width: 171px;
+	border-radius: 4px;
+	border: 1px solid #48cbe8;
+	outline: none;
+	color: #48cbe8;
+	background-color: #fff;
+	font: 13px 'fira_sanslight';
+	color: #48cde8;
+	padding: 9px;
+}
+.textbox {
+	margin-bottom: 12px;
+}
+.txtarea {
+	
+	width: 380px;
+	height: 182px;
+	resize: none;
+	border-radius: 4px;
+	border: 1px solid #48cbe8;
+	outline: none;
+	color: #48cbe8;
+	background-color: #fff;
+	font: 13px 'fira_sanslight';
+	color: #48cde8;
+	padding: 9px;
+}
+.captcha {
+	margin-bottom: 12px;
+}
+.namecaptcha {
+	width: 300px;
+	font: 19px 'fira_sanslight';
+	color: #959aa8;
+	
+}
+.captchabox {
+	width: 190px;
+	height: 78px;
+	background: red;
+	border-radius: 4px;
+	border: 1px solid #48cbe8;
+	
+	float: left;
+
+}
+.catpchainput {
+	float: right;
+	width: 190px;
+	margin-top: 20px;
+}
+
+.buttonstyle {
+	font: 19px 'fira_sansbook';
+    height: 33px;
+    padding: 1px 22px;
+    color: #f6f6f6;
+    border-style: solid;
+    border-width: 0 0 2px;
+    border-radius: 5px;
+}
+.submit-in-form {
+    border-color: #3ba8c0;
+    background-color: #48cbe8;
+    outline: none;
+}
+.reser-in-form {
+    border-color: #687b8f;
+    background: #849db5;
+    outline: none;
+}
+.butreset {
+	width: 126px;
+}
+.submit-in-form:hover {
+	border: none;
+}
+.reser-in-form:hover {
+	border: none;
+}
+.reser-in-form:active {
+	border-top: 2px solid #687b8f;
+}
+.submit-in-form:active {
+	border-top: 2px solid #3ba8c0;
+}

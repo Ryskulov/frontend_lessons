@@ -1,0 +1,260 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background: url(../img/bg.png) repeat;
+  font: normal 1em 'fira_sanslight';
+  color: #4a545d;  
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  position: relative;
+  min-height: 100%;
+  min-width: 970px;
+  height: auto;
+}
+
+.wrapper:after {
+  content: " ";
+  height: 80px;
+  display: block;
+}
+
+.footer {
+  height: 80px;
+  min-width: 970px;
+  margin-top: -81px;
+}
+
+.containerheader {
+  max-width: 1200px;
+  min-width: 960px;
+  height: 100;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header {
+  background-color: #eff3f7;
+  height: 119px;
+  background-image: url(../img/blue_line.png); 
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin-bottom: 39px;
+}
+
+.logo {
+  float: left;
+  margin-top: 39px;
+}
+
+.for_seo {
+  position: absolute;
+  left: -99999px;
+}
+
+.header .socials {
+  float: right;
+  margin-top: 35px;
+}
+.socials {
+  margin: 0;
+  padding: 0;
+  min-width: 260px;
+}
+.social-item {
+  list-style: none;
+  display: inline-block;
+  width: 47px;
+  height: 47px;
+  margin-left: 19px;
+}
+
+.social-item:first-child {
+  margin-right: 0;
+}
+.social-link {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-indent: -9999px;
+  background: url(../img/spritesheet.png) no-repeat;
+}
+
+.social-link.vk {background-position: -481px -5px; }
+.social-link.tw {background-position: -367px -5px; }
+.social-link.fb {background-position: -93px -5px; }
+.social-link.gh {background-position: -207px -5px; }
+
+.social-link.vk:hover {background-position: -538px -5px; }
+.social-link.tw:hover {background-position: -424px -5px; }
+.social-link.fb:hover {background-position: -150px -5px; }
+.social-link.gh:hover {background-position: -264px -5px; }
+
+
+.footer {
+  background-color: #eff3f7;
+  background-image: url(../img/blue_line.png); 
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.footer .container {
+  padding-top: 23px;
+  position: relative;
+}
+
+.copyright {
+  position: absolute;
+  padding-top: 8px;
+  left: 284px;
+  font-size: 13px;
+}
+
+.lock {
+  position: absolute;
+  top: 26px;
+  left: 31px;
+}
+
+.lock-inner {
+  display: block;
+  height: 40px;
+  line-height: 2.2;
+  color: #4a545d;
+  background: url(../img/locked.png) no-repeat;
+  padding-left: 24px;
+}
+
+.lock-inner:hover {
+  background: url(../img/unlocked.png) no-repeat;
+}
+
+
+.container {
+  max-width: 1200px;
+  min-width: 960px;
+  margin: 0 auto;
+  width: 960px;
+}
+
+.container:before, .clearfix:before,
+.container:after, .clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.container:after, .clearfix:after {
+  clear: both;
+}
+
+.sidebar {
+  width: 250px;
+  float: left;
+}
+
+.nav {
+  overflow: hidden;
+  background: #eff3f7;
+  border-radius: 4px;
+  margin-bottom: 26px;
+}
+
+.val-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  border-top: 2px solid #3ba8c0;
+  margin: 0 11px;
+}
+
+.nav-item:first-child {
+  border-top: none;
+}
+
+.nav-item.current {
+  background: #3ba8c0;
+  margin: 0;
+  border-top: none;
+  padding-left: 11px;
+  margin-bottom: -2px; 
+}
+
+.nav-item.current .nav-link {
+  color: #f9fafb;
+  font-size: 22px;
+}
+
+.nav-link {
+  font-family: 'fira_sansbook';
+  display: block;
+  font-size: 20px;
+  text-decoration: none;
+  color: #959aa8;
+  margin-left: 16px;
+  padding: 20px 0;
+}
+
+.nav-link:hover {
+  color: #3ba8c0;
+}
+
+.contacts {
+  font-style: normal; 
+  margin-bottom: 26px; 
+  background: #3ba8c0; 
+  border-radius: 4px; 
+  overflow: hidden;
+}
+
+.contacts-header {
+  padding: 4px 0 4px 19px;
+}
+
+.contacts-header-text {
+  font-family: 'fira_sansbook'; 
+  font-size: 21px; 
+  color: #fbfcfd;
+}
+
+.contacts-list {
+  list-style: none; 
+  margin: 0; 
+  padding: 0;
+}
+
+.contacts-link {
+  text-decoration: none; 
+  font-style: normal; 
+  color: #fff; 
+  font-size: 17px; 
+  padding: 6px 0 6px 83px; 
+  display: block;
+}
+
+.contacts-mail {
+  background: #41b9d4 url(../img/email.png) no-repeat 42px 10px;
+}
+.contacts-phone {
+  background: #48cbe8 url(../img/phone.png) no-repeat 42px 10px;
+}
+.contacts-skype {
+  background: #51daf8 url(../img/skype.png) no-repeat 42px 10px;
+}
+.contact-text:hover {
+  border-bottom: 1px solid #fff;
+}
+
+
+.var-content {
+  width: 650px;
+  float: right;
+  border-radius: 6px;
+}

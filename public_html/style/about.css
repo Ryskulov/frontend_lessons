@@ -1,0 +1,163 @@
+
+.aboutbox {
+	background: #eff3f7;
+	border-radius: 4px;
+	margin-bottom: 26px;
+
+}
+
+.aboutbox .about-header {
+	font-family: 'fira_sansbook';
+	font-size: 27px;
+	font-weight: normal;
+	color: #3ba8c0;
+	border-bottom: 2px #3ba8c0 solid;
+	margin: 0 0 23px 0;
+	padding: 13px 23px;
+	display: inline-block;
+}
+
+.about-body {
+	padding-bottom: 40px;
+}
+
+
+/* первая секция */
+
+.image-wrap {
+	float: left;
+	margin-left: 55px;
+	margin-top: 18px;
+}
+
+.avatar-box {
+	width: 142px;
+	height: 142px;
+	border-radius: 50% 50%;
+	overflow: hidden;
+	border: 5px solid #3ba8c0;
+}
+
+.avatar {
+	width: 100%;
+}
+
+.aboutbox .about-wrap {
+	float: right;
+	width: 400px;
+}
+
+.about-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.answer {
+	float: left;
+	margin-left: 18px;
+	max-width: 260px;
+}
+
+.about-item {
+	margin-bottom: 8px;
+}
+.question {
+	font-family: 'fira_sansmedium';
+	font-size: 16px;
+	float: left;
+}
+
+.answer {
+	font-family: 'fira_sansbook';
+	font-size: 15px;
+	overflow: hidden;
+	max-width: 218px;
+}
+
+.skills-list {
+	padding: 0;
+	margin: 0;
+}
+.skill-item {
+	display: inline-block;
+	font-family: 'ProximaNovaCondensedSemibold';
+	font-size: 15px;
+	background: #3ba8c0; /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
+	background: -webkit-linear-gradient(#3ba8c0 50%, #2e8ca2 50%);
+	background: -o-linear-gradient(#3ba8c0 50%, #2e8ca2 50%);
+	background: linear-gradient(#3ba8c0 50%, #2e8ca2 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ba8c0', endColorstr='#2e8ca2',GradientType=0 ); /* IE6-9 */
+	border-radius: 2px;	
+	padding: 0 7px;
+	margin-right: 8px;
+	color: white;
+	line-height: 1.2;
+	min-width: 40px;
+	text-align: center;	
+	
+	}	
+/* Вторая и третья секция */
+
+.description {
+  display: block;
+  margin: 0;
+}
+
+.date {
+  display: block;
+}
+
+.about-content {
+  background-color: #eff3f7;
+  border-radius: 3px;
+  padding-bottom: 22px;
+  margin-bottom: 29px;
+  font-family: 'fira_sansbook';
+}
+
+
+.description {
+  line-height: 27px;
+}
+
+
+
+.about-content-text {
+  padding-left: 124px;
+  padding-right: 60px;
+  margin-bottom: 24px;
+  position: relative;
+
+}
+
+.date {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+
+.about-content-text:before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 36px;
+  height: 34px;
+  left: 58px;
+  top: 5px;
+  background: url('../img/spritesheet.png') no-repeat -321px -5px;
+
+}
+
+.uni:before {
+  width: 41px;
+  height: 23px;
+  background-position: -5px -5px;
+}
+
+.course:before {
+  width: 32px;
+  height: 32px;
+  left: 65px;
+  background-position: -57px -5px;
+} 
