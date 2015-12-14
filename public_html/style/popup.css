@@ -69,15 +69,17 @@ input, textarea, button {
     height: 41px;
     position: absolute;
     right: 0;
-    background: url(../img/img-add.png) 10px 7px no-repeat;
+    background: url(../img/img-add.png) no-repeat;
     background-color: #48cbe8;
     border-radius: 0 4px 4px 0;
+
 }
 
 .popup-list-pic {
     width: 320px;
     position: relative;
     margin-bottom: 12px;
+
 }
 .aass {
     position: relative;
@@ -86,7 +88,10 @@ input, textarea, button {
 
 
 .popup-add-pic {
-
+    position: absolute;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
 
 }
 
